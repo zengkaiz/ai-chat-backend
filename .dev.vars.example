@@ -1,0 +1,9 @@
+# OpenAI API Key
+OPENAI_API_KEY=sk-your-api-key-here
+
+# CORS 允许的域名（开发环境）
+ALLOWED_ORIGINS=http://localhost:5173
+
+# OpenAI 配置（可选）
+DEFAULT_MODEL=gpt-4o-mini
+MAX_TOKENS=1000

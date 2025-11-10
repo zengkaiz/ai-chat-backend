@@ -1,0 +1,28 @@
+{
+  "name": "ai-chat-serverless",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.7.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "openai": "^4.67.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240925.0",
+    "@cloudflare/vitest-pool-workers": "^0.5.0",
+    "typescript": "^5.6.0",
+    "wrangler": "^3.78.0",
+    "vitest": "^2.0.0"
+  },
+  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
+}
